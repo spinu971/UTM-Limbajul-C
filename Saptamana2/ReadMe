@@ -1,1 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    int y, Rez13;
+    printf("Introduceti y:");
+    scanf("%d",&y);
+Rez13=sqrt(abs(3*pow(y,2)+0.5*y+4));
+    printf("Raspundul este :%d",Rez13);
+    return 0;
+}
+
+
 
